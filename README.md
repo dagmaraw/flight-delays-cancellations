@@ -1,3 +1,50 @@
+### Table of Contents
+
+1. [Installation](#installation)
+2. [Project Motivation](#motivation)
+3. [File Descriptions](#files)
+4. [Results](#results)
+5. [Licensing, Authors, and Acknowledgements](#licensing)
+
+## Installation <a name="installation"></a>
+
+There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python.  The code should run with no issues using Python versions 3.*.
+
+## Project Motivation<a name="motivation"></a>
+
+The goal of this project was to practice creating data visualizations. To that end, exploratory visualizations were created to help pose questions. A segment of these visualizations were chosen and polished into explanatory visualizations, which are presented in a slideshow.
+
+The dataset in this project includes almost 7.5 million domestic flights throughout 2019. It includes flights details such as time of departure/arrival, origin/destination airports, carriers, and delay times/cancellations. This project includes analysis of arrival delays and cancellations, but the investigation focuses on characteristics of only cancelled flights. 
+
+I look at the following:
+
+1. Distribution of arrival delay times and a categorical distribution of delays and cancellations
+2. Distribution of cancellation causes
+3. Cancellation cause vs. season
+4. Cancellation cause vs. season by airport
+
+## File Descriptions <a name="files"></a>
+
+There are two Jupyter notebooks in the respository. exploration_flights.ipynb is exploratory in creating visualizations to pose and answer the questions above. slide_deck_flights.ipynb is used to create the slide deck presentation including the final visualizations. 
+
+The published slideshow is slide_deck_flights.slides.html. output_toggle.tpl is a template file used with nbconvert of export the slide deck. All the data required to run the exploratory notebook in in the data folder, and includes one .csv file for each month of flights in 2019. This data was downloaded from [here] (https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236).
+
+## Results<a name="results"></a>
+
+The main findings can be viewed by opening slide_deck_flights.slides.html.
+
+## Licensing, Authors, Acknowledgements<a name="licensing"></a>
+
+This project was done as part of Udacity's Data Analyst Nanodegree program. Credit to Bureau of Transportation Statistics for the data. output_toggle.tpl was take from [this page] (https://github.com/damianavila/blog/blob/master/posts/hide-the-input-cells-from-your-ipython-slides.ipynb).
+
+
+
+
+
+
+
+
+
 # flight-delays-cancellations
 
 # US Flight Delay and Cancellation Trends in 2019
