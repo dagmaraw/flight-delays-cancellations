@@ -27,36 +27,13 @@ I look at the following:
 
 There are two Jupyter notebooks in the respository. exploration_flights.ipynb is exploratory in creating visualizations to pose and answer the questions above. slide_deck_flights.ipynb is used to create the slide deck presentation including the final visualizations. 
 
+The data is found in the /data folder. It consists of 7,434,871 (after cleaning) US flights in 2019 (all months). Many flight details, including delays/cancellations including cause, origin/destination, airline, and times are included. I removed some columns that I knew I wouldn't use, such as flight number.
+
 The published slideshow is slide_deck_flights.slides.html. output_toggle.tpl is a template file used with nbconvert to export the slide deck. All the data required to run the exploratory notebook in in the data folder, and includes one .csv file for each month of flights in 2019. This data was downloaded from [here](https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236).
 
 ## Results<a name="results"></a>
 
 The main findings can be viewed by opening slide_deck_flights.slides.html.
-
-## Licensing, Authors, Acknowledgements<a name="licensing"></a>
-
-This project was done as part of Udacity's Data Analyst Nanodegree program. Credit to Bureau of Transportation Statistics for the data. output_toggle.tpl was take from [this page](https://github.com/damianavila/blog/blob/master/posts/hide-the-input-cells-from-your-ipython-slides.ipynb).
-
-
-
-
-
-
-
-
-
-# flight-delays-cancellations
-
-# US Flight Delay and Cancellation Trends in 2019
-## by Dagmara Namasivayam
-
-
-## Dataset
-
-The data consists of 7,434,871 (after cleaning) US flights in 2019 (all months). Many flight details, including delays/cancellations including cause, origin/destination, airline, and times are included. I removed some columns that I knew I wouldn't use, such as flight number.
-
-
-## Summary of Findings
 
 I was interested in finding trends relating to flight delays and cancellations. I started with many univariate explorations. I found that delays had a unimodal distribution with the peak actually 10 minutes *early*, but with a long tail to the higher delay values. I put the delay values into bins, including cancellations, which was 2% of all flights.
 
@@ -64,7 +41,8 @@ I found that winter was the busiest flight season. I also found the airlines and
 
 I found that ATL airport had the highest percentage of on-time flights, and the lowest percentage of cancellations out of the top 6 airports explored. The cancellations due to weather had a clear majority in the winter season. The other seasons had closer margins, but only spring did not have weather as the leading cause of cancellations. Looking at this trend for 6 of the highest-trafficked airports, we find that LAX is the only airport for which weather was not the leading cancellation cause for any season. Besides that, carrier cancellations surpassed weather as the top cause only at ATL in spring and fall, and at CLT in the fall. Adding departure time to that analysis, I found that NAS cancellations were responsible for more cancellations of flights that departed in the afternoon than the morning.
 
-
-## Key Insights for Presentation
-
 I found that of the 2% total flights cancelled in 2019, the majority were due to weather. In fact, weather  was the leading cause of flight cancellations for all seasons except Spring. Weather caused by far the majority of cancellations in winter (December, January, February). If we look at this trend for 6 of the highest-trafficked airports, we find that LAX is the only airport for which weather was not the leading cancellation cause for any season. Besides that, carrier cancellations surpassed weather as the top cause only at ATL in spring and fall, and at CLT in the fall. It was surprising to learn that location of destination of airport (cold vs. temperate climate) is not a very good predictor of weather-related cancellations.
+
+## Licensing, Authors, Acknowledgements<a name="licensing"></a>
+
+This project was done as part of Udacity's Data Analyst Nanodegree program. Credit to Bureau of Transportation Statistics for the data. output_toggle.tpl was take from [this page](https://github.com/damianavila/blog/blob/master/posts/hide-the-input-cells-from-your-ipython-slides.ipynb).
