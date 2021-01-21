@@ -27,7 +27,7 @@ I look at the following:
 
 There are two Jupyter notebooks in the respository. exploration_flights.ipynb is exploratory in creating visualizations to pose and answer the questions above. slide_deck_flights.ipynb is used to create the slide deck presentation including the final visualizations. 
 
-The published slideshow is slide_deck_flights.slides.html. output_toggle.tpl is a template file used with nbconvert of export the slide deck. All the data required to run the exploratory notebook in in the data folder, and includes one .csv file for each month of flights in 2019. This data was downloaded from [here] (https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236).
+The published slideshow is slide_deck_flights.slides.html. output_toggle.tpl is a template file used with nbconvert to export the slide deck. All the data required to run the exploratory notebook in in the data folder, and includes one .csv file for each month of flights in 2019. This data was downloaded from [here](https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236).
 
 ## Results<a name="results"></a>
 
