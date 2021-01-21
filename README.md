@@ -35,7 +35,7 @@ The main findings can be viewed by opening slide_deck_flights.slides.html.
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-This project was done as part of Udacity's Data Analyst Nanodegree program. Credit to Bureau of Transportation Statistics for the data. output_toggle.tpl was take from [this page] (https://github.com/damianavila/blog/blob/master/posts/hide-the-input-cells-from-your-ipython-slides.ipynb).
+This project was done as part of Udacity's Data Analyst Nanodegree program. Credit to Bureau of Transportation Statistics for the data. output_toggle.tpl was take from [this page](https://github.com/damianavila/blog/blob/master/posts/hide-the-input-cells-from-your-ipython-slides.ipynb).
 
 
 
