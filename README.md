@@ -31,6 +31,8 @@ The data is found in the /data folder. It consists of 7,434,871 (after cleaning)
 
 The published slideshow is slide_deck_flights.slides.html. output_toggle.tpl is a template file used with nbconvert to export the slide deck. All the data required to run the exploratory notebook in in the data folder, and includes one .csv file for each month of flights in 2019. This data was downloaded from [here](https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236).
 
+Note: The slides (slide_deck_flights.slides.html) are not viewable through GitHub. The easiest way to view html files is to download the repo (click green link labeled "code" on [main repo page](https://github.com/dagmaraw/flight-delays-cancellations) and choose "Download ZIP"). The file can then be opened from the download.
+
 ## Results<a name="results"></a>
 
 The main findings can be viewed by opening slide_deck_flights.slides.html.
